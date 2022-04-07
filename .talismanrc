@@ -1,0 +1,7 @@
+fileignoreconfig:
+- filename: package-lock.json
+  checksum: 41a4c46d6a6cb3af62439706400b954708343f7521e1dfff4c84b374e986f8a8
+- filename: .idea/checkstyle-idea.xml
+  checksum: f24363c9c8bdea59c3f43100747bfc8c73060b8377a911a594f52672679ea8d7
+- filename: .idea/qaplug_profiles.xml
+  checksum: 7c361ddf3540f8d3f1fc3c8ccfab236110ed7d9157258b8666a6bcd7a6ff156b
