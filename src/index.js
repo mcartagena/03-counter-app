@@ -7,5 +7,4 @@ import './index.css';
 const rootDom = document.querySelector("#root");
 const root = createRoot(rootDom);
 
-root.render(<PrimeraApp />);
-//root.render(<PrimeraApp saludo='Hola Marcelo'/>);
+root.render(<PrimeraApp saludo = 'Hola Mundo'/>);
