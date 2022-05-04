@@ -1,7 +1,7 @@
 import React from "react";
 // import {createRoot} from "react-dom/client";
-import {render} from "react-dom"
-import PrimeraApp from "./PrimeraApp";
+import {render} from "react-dom";
+// import PrimeraApp from "./PrimeraApp";
 
 import './index.css';
 import CounterApp from "./CounterApp";
@@ -15,4 +15,5 @@ import CounterApp from "./CounterApp";
 // root.render(<CounterApp value = {7} />);
 
 const divRoot = document.getElementById("root");
-render(<PrimeraApp saludo="Hola soy Marcelo" />, divRoot);
+// render(<PrimeraApp saludo="Hola soy Marcelo" />, divRoot);
+render(<CounterApp value={10}/>, divRoot);
